@@ -1,0 +1,15 @@
+---
+title: "week3 - Remote sensing data"
+---
+
+## Summary
+
+This week mainly covered corrections, data joining, and enhancement. Due to the complexity of the topics discussed this week, I utilized mind mapping to record the key points of the lectures.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/Corrections.png')
+```
+
+## Reflection
+
+The lectures this week are quite abstract and involve a lot of mathematical formulas when explaining the principles of correction and enhancement. However, they are crucial for later image processing and are key steps in subsequent analysis. If correct image processing is not performed from the beginning, it could lead to ineffective or erroneous analysis in the end. In practical operations, PCA analysis requires a large amount of computation and is very time-consuming. This week's operations are still conducted in R, but I am also curious about how image processing is done in GE.

@@ -1,0 +1,21 @@
+---
+title: "week4 - Policy"
+---
+
+## Summary
+
+This week's lecture mainly explained the cases of remote sensing in solving practical problems and provided policy documents on urban development and planning around the world. I chose the area of food security from the Universal Sustainable Development Goals (11.3.1, addresses land consumption to population growth as an indicator), as China is also implementing strict arable land protection strategies to ensure food security. At the same time, I selected the previously worked Jinan City as the research object for this week. According to the Land Protection Law, Jinan has formulated the Overall Land Use Plan for Jinan City, with yellow areas in the map designated as agricultural land.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/land_use_planning.jpg')
+```
+
+## Applications
+
+To monitor illegal construction using remote sensing technology, the first step is to obtain high-resolution remote sensing images. Currently, Shandong Province has launched the Dimensions 03/04 satellites, which are used for land surveys, geographic mapping, natural disaster monitoring, urban planning, and other fields. These satellites have relatively high spatial resolution and data acquisition capabilities, which can be used to monitor changes in arable land and protection efforts. The next step is to establish a map database and perform pre-processing tasks such as object classification and feature extraction. Utilizing the features of buildings in remote sensing images, such as shape, color, texture, etc., combined with local building plans, land-use policies, and other information, rules for extracting illegal construction features can be formulated to automatically or semi-automatically identify illegal construction. Finally, based on the extracted illegal construction features and verification data, machine learning, deep learning, and other methods can be used to establish a monitoring model to achieve automatic identification and monitoring of illegal construction.
+
+## Reflection
+
+Although remote sensing can be used to monitor illegal land use activities, the identification of illegal construction is subject to complex policies, and due to the issue of model accuracy, many cases may result in misjudgments, requiring a significant amount of field verification work. Additionally, since the color of building roofs can lead to misidentification based solely on color recognition, it may be necessary to combine material recognition to more accurately identify illegal buildings.
+
+## References

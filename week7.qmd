@@ -1,0 +1,46 @@
+---
+title: "week7 - Classification Ⅰ"
+---
+
+## Summary
+
+This week I started performing classification operations in GEE. In class, we discussed how Land Use and Land Cover (LULC) distribution significantly affects Mean Annual Precipitation (MAP) and Land Surface Temperature (LST), identifying urban green spaces, and monitoring forests and illegal logging as examples. One machine learning method for classification is Classification and Regression Trees (CART), where classification trees are used to classify data into two or more discrete categories. Regression trees are used to predict a continuous dependent variable. Gini impurity is a measure used in decision tree algorithms for classification tasks. It quantifies the impurity or uncertainty of a dataset by calculating the probability of misclassifying a randomly chosen element if it were randomly labeled according to the distribution of labels in the dataset. However, this model can also suffer from overfitting. To avoid overfitting, techniques such as pruning, limiting maximum depth, setting minimum samples for splitting, setting minimum samples for leaf nodes, limiting the number of features considered for splitting, and using cross-validation can be employed to reduce the risk of overfitting in decision tree models.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/decision_tree_classification_algorithm.png')
+```
+
+## Applications
+
+I followed the steps from the practical tutorial to work with Shenzhen. Firstly, I selected the administrative boundary of Shenzhen as per last week's procedure. Then, I took the median of multiple time period images to obtain a clearer image, and cropped it according to the boundary.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/WK7/sz_boundary.png')
+```
+
+The next step is to select feature parcels and label them as urban_low, urban_high, water, bare_earth, grass, and forest.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/WK7/landuse.png')
+
+```
+
+Then, using the code for a classification tree, I will classify the land use in Shenzhen.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/WK7/classification.png')
+
+```
+
+Finally, I performed a comparison of land use classification using the Random Forest algorithm.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/WK7/RF.png')
+
+```
+
+## Reflection
+
+During the operation, if the labeled parcel pixels exceed the limit, GEE will display an error message. In this case, it is necessary to reduce the number of selected parcels or adjust larger parcels into smaller ones.
+
+## References

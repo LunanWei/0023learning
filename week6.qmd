@@ -1,0 +1,41 @@
+---
+title: "week6 - Google Earth Engine"
+---
+
+## Summary
+
+Google Earth Engine is a cloud-based platform for planetary-scale environmental data analysis. It is a public data catalog, compute infrastructure, geospatial APIs and an interactive app server.
+
+Google Earth Engine (GEE) offers several key advantages:
+
+1.  Massive-scale geospatial processing. It contains planetary scale analysis and datasets which are provided by specialists, such as climate and weather.
+2.  Access to historical and near real-time satellite imagery and geospatial data. A wide range of open source satellite data such as Landsat, sentinel, High-Resolution Imagery, MODIS, etc. are available through GEE.
+3.  Analysis tools. What's pretty amazing is that we can do all kinds of analyses like machine learning through Javascript coding, such as machine learning and statistical analysis capabilities for complex data interpretation.
+4.  Efficiency and rapid processing capability. The computation runs on google's servers, and we borrow resources from the cloud for the computation, so it's very efficient.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/gee_window.png')
+```
+
+## Applications
+
+This week, I conducted some basic operations on Google Earth Engine (GEE), focusing on the Delhi region in India. My activities included adding points and polygons. I loaded Landsat satellite imagery and used vector administrative boundaries from GADM for cropping. Since I loaded multiple images, I synthesized them into a single image using the method of mean.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk6/image2.png')
+
+
+knitr::include_graphics('image/wk6/mean.png')
+
+
+knitr::include_graphics('image/wk6/point.png')
+
+
+knitr::include_graphics('image/wk6/pca.png')
+```
+
+## Reflection
+
+GEE is very interesting as it integrates data, code editing, and existing algorithms. It saves me a lot of time by eliminating the need to download data, while also not occupying my storage space and computing resources. As a result, I can quickly explore and manipulate data. I have explored the data that has already been processed and discovered that experts have conducted extensive research, including LCLU, drought, night light, crops, forest, fire information, etc. So I'm worried about what else I can do with it.
+
+## References

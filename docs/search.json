@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "0023diary",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\ngit push https://github.com/LunanWei/0023learning.git"
   },
   {
     "objectID": "intro.html",
@@ -26,5 +26,145 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "5  week3 - Remote sensing data",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\nThis week mainly covered corrections, data joining, and enhancement. Due to the complexity of the topics discussed this week, I utilized mind mapping to record the key points of the lectures."
+  },
+  {
+    "objectID": "week3.html#reflection",
+    "href": "week3.html#reflection",
+    "title": "5  week3 - Remote sensing data",
+    "section": "5.2 Reflection",
+    "text": "5.2 Reflection\nThe lectures this week are quite abstract and involve a lot of mathematical formulas when explaining the principles of correction and enhancement. However, they are crucial for later image processing and are key steps in subsequent analysis. If correct image processing is not performed from the beginning, it could lead to ineffective or erroneous analysis in the end. In practical operations, PCA analysis requires a large amount of computation and is very time-consuming. This week’s operations are still conducted in R, but I am also curious about how image processing is done in GE."
+  },
+  {
+    "objectID": "week4.html#summary",
+    "href": "week4.html#summary",
+    "title": "6  week4 - Policy",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\nThis week’s lecture mainly explained the cases of remote sensing in solving practical problems and provided policy documents on urban development and planning around the world. I chose the area of food security from the Universal Sustainable Development Goals (11.3.1, addresses land consumption to population growth as an indicator), as China is also implementing strict arable land protection strategies to ensure food security. At the same time, I selected the previously worked Jinan City as the research object for this week. According to the Land Protection Law, Jinan has formulated the Overall Land Use Plan for Jinan City, with yellow areas in the map designated as agricultural land."
+  },
+  {
+    "objectID": "week4.html#applications",
+    "href": "week4.html#applications",
+    "title": "6  week4 - Policy",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications\nTo monitor illegal construction using remote sensing technology, the first step is to obtain high-resolution remote sensing images. Currently, Shandong Province has launched the Dimensions 03/04 satellites, which are used for land surveys, geographic mapping, natural disaster monitoring, urban planning, and other fields. These satellites have relatively high spatial resolution and data acquisition capabilities, which can be used to monitor changes in arable land and protection efforts. The next step is to establish a map database and perform pre-processing tasks such as object classification and feature extraction. Utilizing the features of buildings in remote sensing images, such as shape, color, texture, etc., combined with local building plans, land-use policies, and other information, rules for extracting illegal construction features can be formulated to automatically or semi-automatically identify illegal construction. Finally, based on the extracted illegal construction features and verification data, machine learning, deep learning, and other methods can be used to establish a monitoring model to achieve automatic identification and monitoring of illegal construction."
+  },
+  {
+    "objectID": "week4.html#reflection",
+    "href": "week4.html#reflection",
+    "title": "6  week4 - Policy",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection\nAlthough remote sensing can be used to monitor illegal land use activities, the identification of illegal construction is subject to complex policies, and due to the issue of model accuracy, many cases may result in misjudgments, requiring a significant amount of field verification work. Additionally, since the color of building roofs can lead to misidentification based solely on color recognition, it may be necessary to combine material recognition to more accurately identify illegal buildings."
+  },
+  {
+    "objectID": "week4.html#references",
+    "href": "week4.html#references",
+    "title": "6  week4 - Policy",
+    "section": "6.4 References",
+    "text": "6.4 References"
+  },
+  {
+    "objectID": "week6.html#summary",
+    "href": "week6.html#summary",
+    "title": "8  week6 - Google Earth Engine",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\nGoogle Earth Engine is a cloud-based platform for planetary-scale environmental data analysis. It is a public data catalog, compute infrastructure, geospatial APIs and an interactive app server.\nGoogle Earth Engine (GEE) offers several key advantages:\n\nMassive-scale geospatial processing. It contains planetary scale analysis and datasets which are provided by specialists, such as climate and weather.\nAccess to historical and near real-time satellite imagery and geospatial data. A wide range of open source satellite data such as Landsat, sentinel, High-Resolution Imagery, MODIS, etc. are available through GEE.\nAnalysis tools. What’s pretty amazing is that we can do all kinds of analyses like machine learning through Javascript coding, such as machine learning and statistical analysis capabilities for complex data interpretation.\nEfficiency and rapid processing capability. The computation runs on google’s servers, and we borrow resources from the cloud for the computation, so it’s very efficient."
+  },
+  {
+    "objectID": "week6.html#applications",
+    "href": "week6.html#applications",
+    "title": "8  week6 - Google Earth Engine",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications\nThis week, I conducted some basic operations on Google Earth Engine (GEE), focusing on the Delhi region in India. My activities included adding points and polygons. I loaded Landsat satellite imagery and used vector administrative boundaries from GADM for cropping. Since I loaded multiple images, I synthesized them into a single image using the method of mean."
+  },
+  {
+    "objectID": "week6.html#reflection",
+    "href": "week6.html#reflection",
+    "title": "8  week6 - Google Earth Engine",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nGEE is very interesting as it integrates data, code editing, and existing algorithms. It saves me a lot of time by eliminating the need to download data, while also not occupying my storage space and computing resources. As a result, I can quickly explore and manipulate data. I have explored the data that has already been processed and discovered that experts have conducted extensive research, including LCLU, drought, night light, crops, forest, fire information, etc. So I’m worried about what else I can do with it."
+  },
+  {
+    "objectID": "week6.html#references",
+    "href": "week6.html#references",
+    "title": "8  week6 - Google Earth Engine",
+    "section": "8.4 References",
+    "text": "8.4 References"
+  },
+  {
+    "objectID": "week7.html#summary",
+    "href": "week7.html#summary",
+    "title": "9  week7 - Classification Ⅰ",
+    "section": "9.1 Summary",
+    "text": "9.1 Summary\nThis week I started performing classification operations in GEE. In class, we discussed how Land Use and Land Cover (LULC) distribution significantly affects Mean Annual Precipitation (MAP) and Land Surface Temperature (LST), identifying urban green spaces, and monitoring forests and illegal logging as examples. One machine learning method for classification is Classification and Regression Trees (CART), where classification trees are used to classify data into two or more discrete categories. Regression trees are used to predict a continuous dependent variable. Gini impurity is a measure used in decision tree algorithms for classification tasks. It quantifies the impurity or uncertainty of a dataset by calculating the probability of misclassifying a randomly chosen element if it were randomly labeled according to the distribution of labels in the dataset. However, this model can also suffer from overfitting. To avoid overfitting, techniques such as pruning, limiting maximum depth, setting minimum samples for splitting, setting minimum samples for leaf nodes, limiting the number of features considered for splitting, and using cross-validation can be employed to reduce the risk of overfitting in decision tree models."
+  },
+  {
+    "objectID": "week7.html#applications",
+    "href": "week7.html#applications",
+    "title": "9  week7 - Classification Ⅰ",
+    "section": "9.2 Applications",
+    "text": "9.2 Applications\nI followed the steps from the practical tutorial to work with Shenzhen. Firstly, I selected the administrative boundary of Shenzhen as per last week’s procedure. Then, I took the median of multiple time period images to obtain a clearer image, and cropped it according to the boundary.\n\n\n\n\n\n\n\n\n\nThe next step is to select feature parcels and label them as urban_low, urban_high, water, bare_earth, grass, and forest.\n\n\n\n\n\n\n\n\n\nThen, using the code for a classification tree, I will classify the land use in Shenzhen.\n\n\n\n\n\n\n\n\n\nFinally, I performed a comparison of land use classification using the Random Forest algorithm."
+  },
+  {
+    "objectID": "week7.html#reflection",
+    "href": "week7.html#reflection",
+    "title": "9  week7 - Classification Ⅰ",
+    "section": "9.3 Reflection",
+    "text": "9.3 Reflection\nDuring the operation, if the labeled parcel pixels exceed the limit, GEE will display an error message. In this case, it is necessary to reduce the number of selected parcels or adjust larger parcels into smaller ones."
+  },
+  {
+    "objectID": "week7.html#references",
+    "href": "week7.html#references",
+    "title": "9  week7 - Classification Ⅰ",
+    "section": "9.4 References",
+    "text": "9.4 References"
+  },
+  {
+    "objectID": "week1.html#summary",
+    "href": "week1.html#summary",
+    "title": "3  week1 - Introduction to Remote Sensing",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary\nNASA defines remote sensing as acquiring information from a distance.\nIn passive remote sensing, sensors detect and measure the radiation emitted or reflected by objects or surfaces. In active remote sensing, sensors emit their own radiation and measure the response from the objects or surfaces being observed.\nIn remote sensing, a “band” refers to a specific range of wavelengths within the electromagnetic spectrum that is used to acquire data about the Earth’s surface or atmosphere. Each band corresponds to a particular portion of the spectrum, such as visible light, infrared, or microwave radiation. Each band provides unique information about the properties of the Earth’s surface or atmosphere. By combining data from multiple bands, remote sensing analysts can create composite images or datasets that offer a comprehensive view of the area being observed, enabling a wide range of applications in environmental monitoring, agriculture, urban planning, and other fields.\nApplications: land cover data set with 10m resolution (real time), Urban / green space coverage and accessibility, Pollution studies, Illegal logging, Forest fires, Temperature studies, Flooding / disaster response / building footprints\nPolarization\nRemotely sensed data and applications will vary based on the four resolutions: Spatial, Spectral, Temporal, Radiometric."
+  },
+  {
+    "objectID": "week1.html#applications",
+    "href": "week1.html#applications",
+    "title": "3  week1 - Introduction to Remote Sensing",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications\nIn practice, I downloaded remote sensing data for Paris from landset as well as sentinel and calculated spectral values in R for several different areas (vegetation, buildings, bare land)."
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "3  week1 - Introduction to Remote Sensing",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection\nAt the beginning of this module, I was wondering what this the link between remote sensing and smart city, and how is it applied to solve the real world problem. After the first lecture. I got to know that it is actually earth observation method, and from this method we can gather data about the Earth’s surface, atmosphere, and oceans, from which we can analysis the changes.\nIn my previous job, I was exposed to satellite imagery to identify illegal structures and dispose of them, but I didn’t know how it worked at the time, and at the end of the week, I realised that it could be done by comparing remote sensing imagery at different times and by machine learning."
+  },
+  {
+    "objectID": "week1.html#references",
+    "href": "week1.html#references",
+    "title": "3  week1 - Introduction to Remote Sensing",
+    "section": "3.4 References",
+    "text": "3.4 References"
+  },
+  {
+    "objectID": "week2.html#xaringan-presentation---sentinel-2a",
+    "href": "week2.html#xaringan-presentation---sentinel-2a",
+    "title": "4  week2 - Sensor",
+    "section": "4.1 Xaringan Presentation - Sentinel-2A",
+    "text": "4.1 Xaringan Presentation - Sentinel-2A\nThe content for week 2 is a presentation in Xaringan on the Sentinel-2A satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
+  },
+  {
+    "objectID": "week2.html#section",
+    "href": "week2.html#section",
+    "title": "4  week2 - Sensor",
+    "section": "4.2 ",
+    "text": "4.2"
   }
 ]
