@@ -1,0 +1,38 @@
+---
+title: "week1 - Introduction to Remote Sensing"
+---
+
+## Summary
+
+NASA defines remote sensing as acquiring information from a distance.
+
+In passive remote sensing, sensors detect and measure the radiation emitted or reflected by objects or surfaces. In active remote sensing, sensors emit their own radiation and measure the response from the objects or surfaces being observed.
+
+In remote sensing, a "band" refers to a specific range of wavelengths within the electromagnetic spectrum that is used to acquire data about the Earth's surface or atmosphere. Each band corresponds to a particular portion of the spectrum, such as visible light, infrared, or microwave radiation. Each band provides unique information about the properties of the Earth's surface or atmosphere. By combining data from multiple bands, remote sensing analysts can create composite images or datasets that offer a comprehensive view of the area being observed, enabling a wide range of applications in environmental monitoring, agriculture, urban planning, and other fields.
+
+Applications: land cover data set with 10m resolution (real time), Urban / green space coverage and accessibility, Pollution studies, Illegal logging, Forest fires, Temperature studies, Flooding / disaster response / building footprints
+
+Polarization
+
+Remotely sensed data and applications will vary based on the four resolutions: Spatial, Spectral, Temporal, Radiometric.
+
+## Applications
+
+In practice, I downloaded remote sensing data for Paris from landset as well as sentinel and calculated spectral values in R for several different areas (vegetation, buildings, bare land).
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/bands.png')
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/bands_value.png')
+
+```
+
+## Reflection
+
+At the beginning of this module, I was wondering what this the link between remote sensing and smart city, and how is it applied to solve the real world problem. After the first lecture. I got to know that it is actually earth observation method, and from this method we can gather data about the Earth's surface, atmosphere, and oceans, from which we can analysis the changes.
+
+In my previous job, I was exposed to satellite imagery to identify illegal structures and dispose of them, but I didn't know how it worked at the time, and at the end of the week, I realised that it could be done by comparing remote sensing imagery at different times and by machine learning.
+
+## References
