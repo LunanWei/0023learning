@@ -1,12 +1,5 @@
-# Preface {.unnumbered}
+## Personal Introduction {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-
-```
+Hi, I am Lunan. After completing my undergraduate studies in architecture, I joined the planning department in Jinan city. Currently, I am pursuing an MSc in Urban Spatial Science at CASA. This document is intended to record my learning in remote sensing module. In my work, I have been involved in using remote sensing for monitoring illegal constructions and farmland protection. Additionally, I have learned that remote sensing can be utilized for guiding investments through land monitoring. I hope to explore the application of remote sensing technology in the field of smart cities through this module.
 
 git push <https://github.com/LunanWei/0023learning.git>
