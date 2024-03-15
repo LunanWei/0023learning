@@ -20,22 +20,23 @@ based on confusion matrix
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
 knitr::include_graphics('image/wk8/fraction.png')
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/true_color.png')
 
 ```
 
-```{r}
-
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/fraction.png')
 ```
 
-```{r}
-
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/fraction.png')
 ```
 
-```{r}
-
-```
-
-```{r}
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/fraction.png')
 
 ```
 

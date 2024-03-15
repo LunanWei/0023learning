@@ -177,7 +177,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">5.1</span> Summary</a></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.2</span> Application</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.3</span> Reflection</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.3</span> Reflection</a>
+  <ul class="collapse">
+  <li><a href="#weather-forecast" id="toc-weather-forecast" class="nav-link" data-scroll-target="#weather-forecast"><span class="header-section-number">5.3.1</span> Weather Forecast</a></li>
+  <li><a href="#urban-planning" id="toc-urban-planning" class="nav-link" data-scroll-target="#urban-planning"><span class="header-section-number">5.3.2</span> Urban Planning</a></li>
+  </ul></li>
   <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">5.4</span> Reference</a></li>
   <li><a href="#dictionary" id="toc-dictionary" class="nav-link" data-scroll-target="#dictionary"><span class="header-section-number">5.5</span> Dictionary</a></li>
   </ul>
@@ -205,18 +209,67 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
+<p>This week, the focus was mainly on Heat Island, covering topics such as Temperature and policy, as well as Extracting temperature from satellite data. Urban heat island (UHI) refers to a localized area within a city or metropolitan area that experiences significantly higher temperatures compared to its surrounding rural areas. It primarily stems from more defined dark surfaces and less vegetation in urban areas. The urban heat island poses challenges to residents’ health, energy supply, economic development, and other aspects.</p>
+<p>Currently, global policies aimed at reducing carbon dioxide emissions are being implemented to control global warming. The UN has developed the Beat the Heat Handbook to provide guidance measures for cities worldwide. During the class, various UHI reduction activities in different cities were introduced. Planting trees is one of the initiatives adopted by various cities, and remote sensing can assist us in identifying areas suitable for greening.</p>
+<p>Remote sensing obtains surface temperatures through various sensors and techniques. One of them is using Thermal Infrared Remote Sensing. It utilizes the thermal radiation emitted from the Earth’s surface to acquire temperature information. Thermal infrared sensors measure thermal radiation in different wavelength ranges and infer surface.</p>
 </section>
 <section id="application" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="application"><span class="header-section-number">5.2</span> Application</h2>
+<p>In landsat 8 SR_B. represents Surface Reflectance bands, ST_B.* represents Thermal bands. Thermal bands typically include one or more bands used to measure surface temperature, such as ST_B10.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk5/landsat_temp.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk5/modis_temp.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk5/ee-chart.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk5/ee-chart2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.3</span> Reflection</h2>
+<section id="weather-forecast" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="weather-forecast"><span class="header-section-number">5.3.1</span> Weather Forecast</h3>
+<p>When it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.</p>
+</section>
+<section id="urban-planning" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="urban-planning"><span class="header-section-number">5.3.2</span> Urban Planning</h3>
+<p>I am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect.</p>
+</section>
 </section>
 <section id="reference" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">5.4</span> Reference</h2>
 </section>
 <section id="dictionary" class="level2" data-number="5.5">
 <h2 data-number="5.5" class="anchored" data-anchor-id="dictionary"><span class="header-section-number">5.5</span> Dictionary</h2>
+<p>MODIS</p>
 
 
 </section>

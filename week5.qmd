@@ -4,10 +4,48 @@ title: "week5 - Temperature"
 
 ## Summary
 
+This week, the focus was mainly on Heat Island, covering topics such as Temperature and policy, as well as Extracting temperature from satellite data. Urban heat island (UHI) refers to a localized area within a city or metropolitan area that experiences significantly higher temperatures compared to its surrounding rural areas. It primarily stems from more defined dark surfaces and less vegetation in urban areas. The urban heat island poses challenges to residents' health, energy supply, economic development, and other aspects.
+
+Currently, global policies aimed at reducing carbon dioxide emissions are being implemented to control global warming. The UN has developed the Beat the Heat Handbook to provide guidance measures for cities worldwide. During the class, various UHI reduction activities in different cities were introduced. Planting trees is one of the initiatives adopted by various cities, and remote sensing can assist us in identifying areas suitable for greening.
+
+Remote sensing obtains surface temperatures through various sensors and techniques. One of them is using Thermal Infrared Remote Sensing. It utilizes the thermal radiation emitted from the Earth's surface to acquire temperature information. Thermal infrared sensors measure thermal radiation in different wavelength ranges and infer surface.
+
 ## Application
 
+In landsat 8 SR_B. represents Surface Reflectance bands, ST_B.\* represents Thermal bands. Thermal bands typically include one or more bands used to measure surface temperature, such as ST_B10.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk5/landsat_temp.png')
+
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk5/modis_temp.png')
+
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk5/ee-chart.png')
+
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk5/ee-chart2.png')
+
+```
+
 ## Reflection
+
+### Weather Forecast
+
+When it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.
+
+### Urban Planning
+
+I am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect.
 
 ## Reference
 
 ## Dictionary
+
+MODIS
