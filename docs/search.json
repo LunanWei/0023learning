@@ -243,5 +243,40 @@
     "title": "9  week9 - SAR",
     "section": "9.5 Dictionary",
     "text": "9.5 Dictionary\nSAR 是 Synthetic Aperture Radar（合成孔径雷达）的缩写。SAR 是一种主动型雷达系统，通过发射微波信号，并接收目标反射回来的信号，来获取地表或其他目标物体的图像和信息。\n“Radar pulse”（雷达脉冲）是指雷达系统发射的短暂的电磁波脉冲。\nEMR wave, Electromagnetic Radiation Wave”，即电磁辐射波\n“Backscatter”（回波散射）是一种雷达术语，指的是雷达发射的信号遇到目标物体后，部分能量被目标物体散射并返回到雷达接收器的过程。\nDEM（Digital Elevation Model）数字高程模型： DEM 用于描述地表的地形高度信息，但不包括地表上的人工或自然物体（例如建筑物、树木等）。DEM 只考虑地表的形状和高度，通常用于地形分析、水文模拟、地貌研究等领域。\nDSM（Digital Surface Model）数字地表模型： DSM 描述了地表上的所有表面物体（例如建筑物、树木、山地等）以及地表本身的高度信息，包括地表上的所有物体的高程。在 DSM 中，地表的高程被测量到最高点，不考虑地表下的地形。\nDTM（Digital Terrain Model）数字地形模型： DTM 是一个更精确的地形模型，它描述了地表的形状、高程以及地表以下的地形。DTM 排除了地表上的人工和自然物体，只关注地形的实际形状。DTM 通常用于土地规划、工程设计、流域分析等需要准确地形信息的应用中。"
+  },
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "5  week5 - Temperature",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary"
+  },
+  {
+    "objectID": "week5.html#application",
+    "href": "week5.html#application",
+    "title": "5  week5 - Temperature",
+    "section": "5.2 Application",
+    "text": "5.2 Application"
+  },
+  {
+    "objectID": "week5.html#reflection",
+    "href": "week5.html#reflection",
+    "title": "5  week5 - Temperature",
+    "section": "5.3 Reflection",
+    "text": "5.3 Reflection"
+  },
+  {
+    "objectID": "week5.html#reference",
+    "href": "week5.html#reference",
+    "title": "5  week5 - Temperature",
+    "section": "5.4 Reference",
+    "text": "5.4 Reference"
+  },
+  {
+    "objectID": "week5.html#dictionary",
+    "href": "week5.html#dictionary",
+    "title": "5  week5 - Temperature",
+    "section": "5.5 Dictionary",
+    "text": "5.5 Dictionary"
   }
 ]
