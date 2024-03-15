@@ -177,37 +177,37 @@
   {
     "objectID": "week8.html#summary",
     "href": "week8.html#summary",
-    "title": "10  week8 - Classification Ⅱ",
-    "section": "10.1 Summary",
-    "text": "10.1 Summary\n继续学习分类,包括Object based image analysis (OBIA)\nSub pixel analysis. It determines the proportion or abundance of landcover per pixel\n\n\n\n\n\n\n\n\n\nAccuracy assessment\nbased on confusion matrix"
+    "title": "8  week8 - Classification Ⅱ",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\n继续学习分类,包括Object based image analysis (OBIA)\nSub pixel analysis. It determines the proportion or abundance of landcover per pixel\n\n\n\n\n\n\n\n\n\nAccuracy assessment\nbased on confusion matrix"
   },
   {
     "objectID": "week8.html#application",
     "href": "week8.html#application",
-    "title": "10  week8 - Classification Ⅱ",
-    "section": "10.2 Application",
-    "text": "10.2 Application"
+    "title": "8  week8 - Classification Ⅱ",
+    "section": "8.2 Application",
+    "text": "8.2 Application"
   },
   {
     "objectID": "week8.html#reflection",
     "href": "week8.html#reflection",
-    "title": "10  week8 - Classification Ⅱ",
-    "section": "10.3 Reflection",
-    "text": "10.3 Reflection\n施加这些约束条件可以使非混合分析结果更加符合物理意义和地理现实。非负约束确保了分数不会出现不合理的负值;完全约束则保证了所有分数的总和为1,代表了地物类型在像元内的百分比分布。这些约束有助于提高非混合分析的准确性和可解释性,使结果更加贴近实际的地理场景。\n在光谱非混合分析中,可能会出现端元分数为负值的情况,主要原因有:光谱相似性,光谱变化,噪声影响,非线性混合,过度拟合."
+    "title": "8  week8 - Classification Ⅱ",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\n施加这些约束条件可以使非混合分析结果更加符合物理意义和地理现实。非负约束确保了分数不会出现不合理的负值;完全约束则保证了所有分数的总和为1,代表了地物类型在像元内的百分比分布。这些约束有助于提高非混合分析的准确性和可解释性,使结果更加贴近实际的地理场景。\n在光谱非混合分析中,可能会出现端元分数为负值的情况,主要原因有:光谱相似性,光谱变化,噪声影响,非线性混合,过度拟合."
   },
   {
     "objectID": "week8.html#reference",
     "href": "week8.html#reference",
-    "title": "10  week8 - Classification Ⅱ",
-    "section": "10.4 Reference",
-    "text": "10.4 Reference"
+    "title": "8  week8 - Classification Ⅱ",
+    "section": "8.4 Reference",
+    "text": "8.4 Reference"
   },
   {
     "objectID": "week8.html#dictionary",
     "href": "week8.html#dictionary",
-    "title": "10  week8 - Classification Ⅱ",
-    "section": "10.5 Dictionary",
-    "text": "10.5 Dictionary\n端元(endmember)它指的是构成一个混合像元的纯净地物成分的光谱特征。\nfractions在这里指的是非混合分析(unmixing)得到的每个端元(endmember)的分数(fraction)图像。\nsub-pixel亚像元是指遥感影像中单个像元内部由多种地物类型组成的情况。\n非混合分析(Unmixing)是一种遥感图像处理技术,旨在将像元内的混合光谱分解为几种纯净地物(即端元endmember)光谱的线性组合。\nobject based image analysis (OBIA)\n影像梯度(Image Gradient)是一种常用的图像处理技术,用于检测和突出影像中的边缘和细节特征。它通过计算每个像元与其邻居像元值之间的变化率,来确定该像元属于边缘还是区域内部。\n超像素(Super Pixels)是一种常用的图像分割技术,旨在将具有相似属性的相邻像素聚集在一起形成具有某种统一特征的超像素区域。\nSpectral Reflectance（光谱反射率）\nSNIC（Superpixels using N-Dimensional Iterative Clustering）SNIC算法的主要思想是在色彩和空间域中同时对像素进行聚类。"
+    "title": "8  week8 - Classification Ⅱ",
+    "section": "8.5 Dictionary",
+    "text": "8.5 Dictionary\n端元(endmember)它指的是构成一个混合像元的纯净地物成分的光谱特征。\nfractions在这里指的是非混合分析(unmixing)得到的每个端元(endmember)的分数(fraction)图像。\nsub-pixel亚像元是指遥感影像中单个像元内部由多种地物类型组成的情况。\n非混合分析(Unmixing)是一种遥感图像处理技术,旨在将像元内的混合光谱分解为几种纯净地物(即端元endmember)光谱的线性组合。\nobject based image analysis (OBIA)\n影像梯度(Image Gradient)是一种常用的图像处理技术,用于检测和突出影像中的边缘和细节特征。它通过计算每个像元与其邻居像元值之间的变化率,来确定该像元属于边缘还是区域内部。\n超像素(Super Pixels)是一种常用的图像分割技术,旨在将具有相似属性的相邻像素聚集在一起形成具有某种统一特征的超像素区域。\nSpectral Reflectance（光谱反射率）\nSNIC（Superpixels using N-Dimensional Iterative Clustering）SNIC算法的主要思想是在色彩和空间域中同时对像素进行聚类。"
   },
   {
     "objectID": "week9.html#summary",
@@ -256,14 +256,14 @@
     "href": "week5.html#application",
     "title": "5  week5 - Temperature",
     "section": "5.2 Application",
-    "text": "5.2 Application\nIn landsat 8 SR_B. represents Surface Reflectance bands, ST_B.* represents Thermal bands. Thermal bands typically include one or more bands used to measure surface temperature, such as ST_B10."
+    "text": "5.2 Application\nIn landsat 8 SR_B. represents Surface Reflectance bands, ST_B.* represents Thermal bands. Thermal bands typically include one or more bands used to measure surface temperature, such as ST_B10.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMODIS的空间分辨率相对较低，通常在250米至1公里之间，适合用于监测大范围的地表温度变化。Landsat的空间分辨率相对较高，通常在30米至100米之间，适合用于监测较小范围内的地表温度变化。MODIS具有较高的时间分辨率，通常每天都会提供数据.Landsat的时间分辨率较低，通常几天至几周提供一次数据.由于其较高的时间分辨率和适用于大范围的空间分辨率，MODIS常用于全球气候变化监测、环境监测和天气预测等领域。Landsat的较高空间分辨率使其更适合用于精细尺度的地表温度监测和地表特征识别，常用于土地利用/土地覆盖变化、城市规划和资源管理等领域。"
   },
   {
     "objectID": "week5.html#reflection",
     "href": "week5.html#reflection",
     "title": "5  week5 - Temperature",
     "section": "5.3 Reflection",
-    "text": "5.3 Reflection\n\n5.3.1 Weather Forecast\nWhen it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.\n\n\n5.3.2 Urban Planning\nI am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect."
+    "text": "5.3 Reflection\nWeather Forecast\n\nWhen it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.\n\nUrban Planning\n\nI am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect."
   },
   {
     "objectID": "week5.html#reference",

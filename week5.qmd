@@ -24,6 +24,8 @@ knitr::include_graphics('image/wk5/modis_temp.png')
 
 ```
 
+MODIS的空间分辨率相对较低，通常在250米至1公里之间，适合用于监测大范围的地表温度变化。Landsat的空间分辨率相对较高，通常在30米至100米之间，适合用于监测较小范围内的地表温度变化。MODIS具有较高的时间分辨率，通常每天都会提供数据.Landsat的时间分辨率较低，通常几天至几周提供一次数据.由于其较高的时间分辨率和适用于大范围的空间分辨率，MODIS常用于全球气候变化监测、环境监测和天气预测等领域。Landsat的较高空间分辨率使其更适合用于精细尺度的地表温度监测和地表特征识别，常用于土地利用/土地覆盖变化、城市规划和资源管理等领域。
+
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
 knitr::include_graphics('image/wk5/ee-chart.png')
 
@@ -36,13 +38,13 @@ knitr::include_graphics('image/wk5/ee-chart2.png')
 
 ## Reflection
 
-### Weather Forecast
+Weather Forecast
 
-When it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.
+-   When it come to weather forecasting. Every city has a forecasted temperature, but for large cities, there can be temperature differences across different areas. By leveraging machine learning on remote sensing temperatures and forecasted temperatures, we can obtain more detailed temperature predictions for different regions within the city.
 
-### Urban Planning
+Urban Planning
 
-I am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect.
+-   I am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect.
 
 ## Reference
 
