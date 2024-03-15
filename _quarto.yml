@@ -4,13 +4,11 @@ project:
   
 book:
   title: "0023diary"
-  author: "Norah Jones"
+  author: "Lunan Wei"
   date: "2024/3/11"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
     - week1.qmd
     - week2.qmd
     - week3.qmd
@@ -19,6 +17,8 @@ book:
     - week6.qmd
     - week7.qmd
     - week8.qmd
+    - week9.qmd
+    - references.qmd
 
 bibliography: references.bib
 
