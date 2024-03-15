@@ -208,5 +208,40 @@
     "title": "10  week8 - Classification Ⅱ",
     "section": "10.5 Dictionary",
     "text": "10.5 Dictionary\n端元(endmember)它指的是构成一个混合像元的纯净地物成分的光谱特征。\nfractions在这里指的是非混合分析(unmixing)得到的每个端元(endmember)的分数(fraction)图像。\nsub-pixel亚像元是指遥感影像中单个像元内部由多种地物类型组成的情况。\n非混合分析(Unmixing)是一种遥感图像处理技术,旨在将像元内的混合光谱分解为几种纯净地物(即端元endmember)光谱的线性组合。\nobject based image analysis (OBIA)\n影像梯度(Image Gradient)是一种常用的图像处理技术,用于检测和突出影像中的边缘和细节特征。它通过计算每个像元与其邻居像元值之间的变化率,来确定该像元属于边缘还是区域内部。\n超像素(Super Pixels)是一种常用的图像分割技术,旨在将具有相似属性的相邻像素聚集在一起形成具有某种统一特征的超像素区域。\nSpectral Reflectance（光谱反射率）\nSNIC（Superpixels using N-Dimensional Iterative Clustering）SNIC算法的主要思想是在色彩和空间域中同时对像素进行聚类。"
+  },
+  {
+    "objectID": "week9.html#summary",
+    "href": "week9.html#summary",
+    "title": "9  week9 - SAR",
+    "section": "9.1 Summary",
+    "text": "9.1 Summary\n\n9.1.1 SAR\nLonger antenna = narrower beam and a higher resolution\n\n\n\n\n\n\n\n\n\nThe table below notes the band with associated frequency, wavelength, and the application typical for that band.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9.1.2 InSAR\nis mapping for ground movement detected through this phase shift. Movement is shown through an interferogram\n\n\n9.1.3 DInSAR\nDifferential Interferometric Synthetic Aperture Radar\nchanges between two images in time. Looking at movement of land (uplift or sinking) with topography removed"
+  },
+  {
+    "objectID": "week9.html#application",
+    "href": "week9.html#application",
+    "title": "9  week9 - SAR",
+    "section": "9.2 Application",
+    "text": "9.2 Application"
+  },
+  {
+    "objectID": "week9.html#reflection",
+    "href": "week9.html#reflection",
+    "title": "9  week9 - SAR",
+    "section": "9.3 Reflection",
+    "text": "9.3 Reflection"
+  },
+  {
+    "objectID": "week9.html#reference",
+    "href": "week9.html#reference",
+    "title": "9  week9 - SAR",
+    "section": "9.4 Reference",
+    "text": "9.4 Reference"
+  },
+  {
+    "objectID": "week9.html#dictionary",
+    "href": "week9.html#dictionary",
+    "title": "9  week9 - SAR",
+    "section": "9.5 Dictionary",
+    "text": "9.5 Dictionary\nSAR 是 Synthetic Aperture Radar（合成孔径雷达）的缩写。SAR 是一种主动型雷达系统，通过发射微波信号，并接收目标反射回来的信号，来获取地表或其他目标物体的图像和信息。\n“Radar pulse”（雷达脉冲）是指雷达系统发射的短暂的电磁波脉冲。\nEMR wave, Electromagnetic Radiation Wave”，即电磁辐射波\n“Backscatter”（回波散射）是一种雷达术语，指的是雷达发射的信号遇到目标物体后，部分能量被目标物体散射并返回到雷达接收器的过程。\nDEM（Digital Elevation Model）数字高程模型： DEM 用于描述地表的地形高度信息，但不包括地表上的人工或自然物体（例如建筑物、树木等）。DEM 只考虑地表的形状和高度，通常用于地形分析、水文模拟、地貌研究等领域。\nDSM（Digital Surface Model）数字地表模型： DSM 描述了地表上的所有表面物体（例如建筑物、树木、山地等）以及地表本身的高度信息，包括地表上的所有物体的高程。在 DSM 中，地表的高程被测量到最高点，不考虑地表下的地形。\nDTM（Digital Terrain Model）数字地形模型： DTM 是一个更精确的地形模型，它描述了地表的形状、高程以及地表以下的地形。DTM 排除了地表上的人工和自然物体，只关注地形的实际形状。DTM 通常用于土地规划、工程设计、流域分析等需要准确地形信息的应用中。"
   }
 ]
