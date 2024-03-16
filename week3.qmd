@@ -10,6 +10,14 @@ This week mainly covered corrections, data joining, and enhancement. Due to the 
 knitr::include_graphics('image/Corrections.png')
 ```
 
+## Application
+
 ## Reflection
 
 The lectures this week are quite abstract and involve a lot of mathematical formulas when explaining the principles of correction and enhancement. However, they are crucial for later image processing and are key steps in subsequent analysis. If correct image processing is not performed from the beginning, it could lead to ineffective or erroneous analysis in the end. In practical operations, PCA analysis requires a large amount of computation and is very time-consuming. This week's operations are still conducted in R, but I am also curious about how image processing is done in GE.
+
+## Reference
+
+## Dictionary
+
+-   NDMI
