@@ -4,11 +4,17 @@ title: "week1 - Introduction"
 
 ## Summary
 
+### Remote sensing
+
 This week mainly introduced the principles of remote sensing. Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object (Schowengerdt, 2007).
 
 Remote sensing can be divided into passive remote sensing and active remote sensing. In passive remote sensing, sensors detect and measure the radiation emitted or reflected by objects or surfaces. In active remote sensing, sensors emit their own radiation and measure the response from the objects or surfaces being observed.
 
+### Band
+
 In remote sensing, a "band" refers to a specific range of wavelengths within the electromagnetic spectrum that is used to acquire data about the Earth's surface or atmosphere. Each band corresponds to a particular portion of the spectrum, such as visible light, infrared, or microwave radiation. Each band provides unique information about the properties of the Earth's surface or atmosphere. By combining data from multiple bands, remote sensing analysts can create composite images or datasets that offer a comprehensive view of the area being observed, enabling a wide range of applications in environmental monitoring, agriculture, urban planning, and other fields.
+
+### Resolutions
 
 Remotely sensed data and applications will vary based on the four resolutions: Spatial, Spectral, Temporal, Radiometric (Jensen, 2007).
 
