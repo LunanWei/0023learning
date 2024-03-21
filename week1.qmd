@@ -53,7 +53,7 @@ In my previous job, I was exposed to satellite imagery to identify illegal struc
 
 ## References
 
-Chen, F. et al. (2008) \"Abstracting of suspected illegal land use in urban areas using case-based classification of remote sensing images,\" in *Proceedings of SPIE*. \[Online\]. 2008 Bellingham, Wash: SPIE. pp. 71230R-71230R -- 6.
+Chen, F. et al. (2008) "Abstracting of suspected illegal land use in urban areas using case-based classification of remote sensing images," in *Proceedings of SPIE*. \[Online\]. 2008 Bellingham, Wash: SPIE. pp. 71230R-71230R -- 6.
 
 Jensen, J. R. (2007) *Remote sensing of the environment : an earth resource perspective / John R. Jensen.* 2nd ed. Upper Saddle River, N.J: Pearson Prentice Hall.
 
