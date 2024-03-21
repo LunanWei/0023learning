@@ -159,12 +159,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9 - SAR</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -176,7 +170,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">5.1</span> Summary</a></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.2</span> Application</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.2</span> Application</a>
+  <ul class="collapse">
+  <li><a href="#practical" id="toc-practical" class="nav-link" data-scroll-target="#practical"><span class="header-section-number">5.2.1</span> Practical</a></li>
+  <li><a href="#casa-study" id="toc-casa-study" class="nav-link" data-scroll-target="#casa-study"><span class="header-section-number">5.2.2</span> Casa study:</a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.3</span> Reflection</a></li>
   <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">5.4</span> Reference</a></li>
   <li><a href="#dictionary" id="toc-dictionary" class="nav-link" data-scroll-target="#dictionary"><span class="header-section-number">5.5</span> Dictionary</a></li>
@@ -205,12 +203,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
-<p>This week, the focus was mainly on Heat Island, covering topics such as Temperature and policy, as well as Extracting temperature from satellite data. Urban heat island (UHI) refers to a localized area within a city or metropolitan area that experiences significantly higher temperatures compared to its surrounding rural areas. It primarily stems from more defined dark surfaces and less vegetation in urban areas. The urban heat island poses challenges to residents’ health, energy supply, economic development, and other aspects.</p>
+<p>This week, I mainly focus on Heat Island, as well as Extracting temperature from satellite data. Urban heat island (UHI) refers to a localized area within a city or metropolitan area that experiences significantly higher temperatures compared to its surrounding rural areas. It primarily stems from more defined dark surfaces and less vegetation in urban areas. The urban heat island poses challenges to residents’ health, energy supply, economic development, and other aspects.</p>
 <p>Currently, global policies aimed at reducing carbon dioxide emissions are being implemented to control global warming. The UN has developed the Beat the Heat Handbook to provide guidance measures for cities worldwide. During the class, various UHI reduction activities in different cities were introduced. Planting trees is one of the initiatives adopted by various cities, and remote sensing can assist us in identifying areas suitable for greening.</p>
 <p>Remote sensing obtains surface temperatures through various sensors and techniques. One of them is using Thermal Infrared Remote Sensing. It utilizes the thermal radiation emitted from the Earth’s surface to acquire temperature information. Thermal infrared sensors measure thermal radiation in different wavelength ranges and infer surface.</p>
 </section>
 <section id="application" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="application"><span class="header-section-number">5.2</span> Application</h2>
+<section id="practical" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="practical"><span class="header-section-number">5.2.1</span> Practical</h3>
 <p>In landsat 8 SR_B. represents Surface Reflectance bands, ST_B.* represents Thermal bands. Thermal bands typically include one or more bands used to measure surface temperature, such as ST_B10.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -230,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>MODIS的空间分辨率相对较低，通常在250米至1公里之间，适合用于监测大范围的地表温度变化。Landsat的空间分辨率相对较高，通常在30米至100米之间，适合用于监测较小范围内的地表温度变化。MODIS具有较高的时间分辨率，通常每天都会提供数据.Landsat的时间分辨率较低，通常几天至几周提供一次数据.由于其较高的时间分辨率和适用于大范围的空间分辨率，MODIS常用于全球气候变化监测、环境监测和天气预测等领域。Landsat的较高空间分辨率使其更适合用于精细尺度的地表温度监测和地表特征识别，常用于土地利用/土地覆盖变化、城市规划和资源管理等领域。</p>
+<p>The spatial resolution of MODIS is relatively low, typically ranging from 250 meters to 1 kilometer, making it suitable for monitoring large-scale surface temperature changes. Landsat, on the other hand, has a higher spatial resolution, typically ranging from 30 meters to 100 meters, making it suitable for monitoring surface temperature changes in smaller areas. MODIS has a higher temporal resolution, typically providing data daily, whereas Landsat has a lower temporal resolution, typically providing data every few days to weeks. Due to its higher temporal resolution and suitability for large-scale spatial resolution, MODIS is commonly used in fields such as global climate change monitoring, environmental monitoring, and weather forecasting. Landsat’s higher spatial resolution makes it more suitable for fine-scale surface temperature monitoring and surface feature identification, commonly used in areas such as land use/land cover change, urban planning, and resource management.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -250,6 +250,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="casa-study" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="casa-study"><span class="header-section-number">5.2.2</span> Casa study:</h3>
+<p>Saputra (2022) focused on the investigation of the urban heat island (UHI) effect in Jakarta, Indonesia, during the early stages of the COVID-19 pandemic. The study utilized remote sensing imagery from Landsat 8 to extract land surface temperatures and employed various methodologies for calculating UHI, including radiance conversion, brightness temperature, land surface emissivity, and correlation analysis with COVID-19 case distributions.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk5/Jakarta.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
 <section id="reflection" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.3</span> Reflection</h2>
 <p>Weather Forecast</p>
@@ -260,13 +274,27 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>I am also contemplating on urban planning. People have various orientations in urban plannin but currently, temperature is less considered in the initial design phase. Through machine learning, we can predict the future temperature of the built space after implementing different planning methods, in order to choose suitable methods to reduce the urban heat island effect.</li>
 </ul>
+<p>Research use</p>
+<ul>
+<li>Just like what Saputra did, we can obtain urban temperature data through remote sensing and then analyze it together with other data.</li>
+</ul>
+<p>Limitations</p>
+<ul>
+<li>Despite the unparalleled advantages of satellite images to explore the SUHI. Remotely-sensed LST is completely different from air temperature in terms of observation principles and altitudes, which makes SUHI not directly comparable to air UHI. (Zhou, 2019)</li>
+</ul>
 </section>
 <section id="reference" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">5.4</span> Reference</h2>
+<p>Saputra, A. et al.&nbsp;(2022) Assessing urban heat island in Jakarta, Indonesia during the pandemic of Covid-19. IOP conference series. Earth and environmental science. 986 (1), 12069-.</p>
+<p>Maclachlan, Andrew (2023) CASA0023 Remotely Sensing Cities and Environments <a href="https://andrewmaclachlan.github.io/CASA0023/8_temperature.html" class="uri">https://andrewmaclachlan.github.io/CASA0023/8_temperature.html</a></p>
+<p>Zhou, D. et al.&nbsp;(2019) Satellite remote sensing of surface urban heat islands: Progress, challenges, and perspectives. <em>Remote sensing (Basel, Switzerland)</em>. 11 (1), 48-.</p>
 </section>
 <section id="dictionary" class="level2" data-number="5.5">
 <h2 data-number="5.5" class="anchored" data-anchor-id="dictionary"><span class="header-section-number">5.5</span> Dictionary</h2>
-<p>MODIS</p>
+<ul>
+<li>MODIS: Moderate Resolution Imaging Spectroradiometer.</li>
+<li>SUHI: Surface Urban Heat Island.</li>
+</ul>
 
 
 </section>
