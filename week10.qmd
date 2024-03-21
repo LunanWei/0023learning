@@ -1,0 +1,9 @@
+---
+title: "week10 - Presentation"
+---
+
+This week, we made the group work presentation. We invested a significant amount of effort in the preliminary stages, from identifying innovative topics addressing urban issues to collaborating on project proposals. Despite having only four members (Mengyu Ding, Zhaowei Cui, Sheng Hu), we efficiently completed the tasks. We are also very grateful to Professor Andy and PGTAs for their guidance and support throughout the semester on our pitch.
+
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://dereksgithub.github.io/group_RS_casa0023/", ratio = "16:9")
+```

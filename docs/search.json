@@ -81,7 +81,7 @@
     "href": "week6.html#applications",
     "title": "6  week6 - Google Earth Engine",
     "section": "6.2 Applications",
-    "text": "6.2 Applications\nThis week, I conducted some basic operations on Google Earth Engine (GEE), focusing on the Delhi region in India. My activities included adding points and polygons. I loaded Landsat satellite imagery and used vector administrative boundaries from GADM for cropping. Since I loaded multiple images, I synthesized them into a single image using the method of mean."
+    "text": "6.2 Applications\n\n6.2.1 Practical\nThis week, I conducted some basic operations on Google Earth Engine (GEE), focusing on the Delhi region in India. My activities included adding points and polygons. I loaded Landsat satellite imagery and used vector administrative boundaries from GADM for cropping. Since I loaded multiple images, I synthesized them into a single image using the method of mean.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6.2.2 Case study: illegal waste disposal\nSilvestri and Omri, emploied IKONOS satellite data to address the environmental challenges posed by uncontrolled landfills, particularly in areas experiencing rapid industrial growth. The method involves initial recognition using maximum likelihood classification, manual digitization of detected sites, and selection of the most likely lands using additional geographic and historical information.(Silvestri ,2008)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Plastic Watch (GPW) is a digital platform that maps the world's plastic pollution in near real-time using a unique combination of satellite imagery and artificial intelligence. The research employs a novel pipeline of neural networks(Pixel Spectrogram Classifier and Patch Classifier are used) that analyze spectral, spatial, and temporal data from Sentinel-2 satellites to detect plastic waste aggregations on land throughout Southeast Asia. This approach allows for the identification of plastic waste sites, monitoring waste site footprints over time, and generating metadata for each detected site."
   },
   {
     "objectID": "week6.html#reflection",
@@ -95,7 +95,7 @@
     "href": "week6.html#references",
     "title": "6  week6 - Google Earth Engine",
     "section": "6.4 References",
-    "text": "6.4 References"
+    "text": "6.4 References\nSilvestri, S. & Omri, M. (2008) A method for the remote sensing identification of uncontrolled landfills; formulation and validation. International journal of remote sensing. 29 (3–4), 975–989."
   },
   {
     "objectID": "week7.html#summary",
@@ -179,7 +179,7 @@
     "href": "week8.html#summary",
     "title": "8  week8 - Classification Ⅱ",
     "section": "8.1 Summary",
-    "text": "8.1 Summary\n继续学习分类,包括Object based image analysis (OBIA)\nSub pixel analysis. It determines the proportion or abundance of landcover per pixel\n\n\n\n\n\n\n\n\n\nAccuracy assessment\nbased on confusion matrix"
+    "text": "8.1 Summary\n\n8.1.1 Lecture\nThis week I continuously learned classification, which include Object based image analysis (OBIA). In order to extract finer spatial information from imagery data than what is provided by the native spatial resolution of the sensor, we also use subpixel analysis. In the accuracy assessment part, we use confusion matrix. In a confusion matrix, each row represents the instances in an actual class, while each column represents the instances in a predicted class.\n\n\n8.1.2 Pracital\nFollowing the practical requirements, after loading the city’s data, I applied cloud masking to the Landsat dataset using the cloudMaskC2L7 function. Then, I extracted data for urban, grassland, bare soil, and forest from the image.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNext, I computed the gradient and spectral gradient of the image and added them to the map.\n\n\n\n\n\n\n\n\n\nAdditionally, I conducted image segmentation using the KMeans and SNIC algorithms, and visualized the segmentation results on the map.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFurthermore, I calculated the standard deviation and NDVI of the image, and displayed the results on the map.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinally, I merged the segmented image data with the classified data, performed classification training, and visualized the classification results on the map."
   },
   {
     "objectID": "week8.html#application",
@@ -193,7 +193,7 @@
     "href": "week8.html#reflection",
     "title": "8  week8 - Classification Ⅱ",
     "section": "8.3 Reflection",
-    "text": "8.3 Reflection\n施加这些约束条件可以使非混合分析结果更加符合物理意义和地理现实。非负约束确保了分数不会出现不合理的负值;完全约束则保证了所有分数的总和为1,代表了地物类型在像元内的百分比分布。这些约束有助于提高非混合分析的准确性和可解释性,使结果更加贴近实际的地理场景。\n在光谱非混合分析中,可能会出现端元分数为负值的情况,主要原因有:光谱相似性,光谱变化,噪声影响,非线性混合,过度拟合."
+    "text": "8.3 Reflection\n\nImposing these constraints can make the results of non-mixture analysis more physically meaningful and geographically realistic. The non-negativity constraint ensures that scores will not take on unreasonable negative values, while the unity constraint ensures that the sum of all scores is 1, representing the percentage distribution of land cover types within pixels. These constraints help improve the accuracy and interpretability of non-mixture analysis, making the results more closely aligned with actual geographical scenarios.\nIn spectral unmixing analysis, negative endmember fractions may occur due to several reasons: spectral similarity, spectral variability, noise effects, nonlinear mixing, and overfitting."
   },
   {
     "objectID": "week8.html#reference",
@@ -207,7 +207,7 @@
     "href": "week8.html#dictionary",
     "title": "8  week8 - Classification Ⅱ",
     "section": "8.5 Dictionary",
-    "text": "8.5 Dictionary\n端元(endmember)它指的是构成一个混合像元的纯净地物成分的光谱特征。\nfractions在这里指的是非混合分析(unmixing)得到的每个端元(endmember)的分数(fraction)图像。\nsub-pixel亚像元是指遥感影像中单个像元内部由多种地物类型组成的情况。\n非混合分析(Unmixing)是一种遥感图像处理技术,旨在将像元内的混合光谱分解为几种纯净地物(即端元endmember)光谱的线性组合。\nobject based image analysis (OBIA)\n影像梯度(Image Gradient)是一种常用的图像处理技术,用于检测和突出影像中的边缘和细节特征。它通过计算每个像元与其邻居像元值之间的变化率,来确定该像元属于边缘还是区域内部。\n超像素(Super Pixels)是一种常用的图像分割技术,旨在将具有相似属性的相邻像素聚集在一起形成具有某种统一特征的超像素区域。\nSpectral Reflectance（光谱反射率）\nSNIC（Superpixels using N-Dimensional Iterative Clustering）SNIC算法的主要思想是在色彩和空间域中同时对像素进行聚类。"
+    "text": "8.5 Dictionary\n\nSub pixel analysis. It determines the proportion or abundance of landcover per pixel.\nEndmember: The spectral characteristics of pure land cover components constituting a mixed pixel.\nFractions: The fraction images obtained from unmixing, representing the fraction of each endmember in the mixture.\nSub-pixel: The situation in remote sensing imagery where individual pixels consist of multiple land cover types.\nUnmixing: A remote sensing image processing technique aimed at decomposing the mixed spectral signatures within pixels into linear combinations of pure land cover spectra, or endmembers.\nOBIA: Object Based Image Analysis. The ratio of the reflected electromagnetic radiation from a surface at different wavelengths.\nImage Gradient: A commonly used image processing technique for detecting and highlighting edge and detail features in images. It determines whether a pixel belongs to an edge or to the interior of a region by computing the rate of change between its pixel value and those of its neighboring pixels.\nSuper Pixels: A commonly used image segmentation technique aimed at clustering adjacent pixels with similar properties into regions with unified characteristics.\nSpectral Reflectance: The ratio of the reflected electromagnetic radiation from a surface at different wavelengths.\nSNIC: Superpixels using N-Dimensional Iterative Clustering. The main idea of the SNIC algorithm is to simultaneously cluster pixels in both color and spatial domains."
   },
   {
     "objectID": "week9.html#summary",
@@ -284,7 +284,7 @@
     "href": "index.html#introduction",
     "title": "0023diary",
     "section": "Introduction",
-    "text": "Introduction\nHi, I am Lunan. After completing my undergraduate studies in architecture, I joined the planning department in Jinan city. Currently, I am pursuing an MSc in Urban Spatial Science at CASA. This document is intended to record my learning in remote sensing module. In my work, I have been involved in using remote sensing for monitoring illegal constructions and farmland protection. Additionally, I have learned that remote sensing can be utilized for guiding investments through land monitoring. I hope to explore the application of remote sensing technology in the field of smart cities through this module.\nAccording to the course requirements, the main parts of the diary include Summary, Application, and Reflection. However, to better help me understand and remember the concepts, I have added an additional section called Dictionary to explain some unfamiliar words and concepts encountered, this section is only for personal use.\ngit push https://github.com/LunanWei/0023learning.git"
+    "text": "Introduction\n\n\n\n\n\n\n\n\n\nHi, I am Lunan. After completing my undergraduate studies in architecture, I joined the planning department in Jinan city. Currently, I am pursuing an MSc in Urban Spatial Science at CASA. This document is intended to record my learning in remote sensing module. In my work, I have been involved in using remote sensing for monitoring illegal constructions and farmland protection. Additionally, I have learned that remote sensing can be utilized for guiding investments through land monitoring. I hope to explore the application of remote sensing technology in the field of smart cities through this module.\nAccording to the course requirements, the main parts of the diary include Summary, Application, and Reflection. However, to better help me understand and remember the concepts, I have added an additional section called Dictionary to explain some unfamiliar words and concepts encountered, this section is only for personal use.\ngit push https://github.com/LunanWei/0023learning.git"
   },
   {
     "objectID": "week3.html#application",
@@ -306,5 +306,12 @@
     "title": "3  week3 - Remote sensing data",
     "section": "3.5 Dictionary",
     "text": "3.5 Dictionary\n\nNDMI: The Normalized Difference Moisture Index (NDMI) is a satellite-derived index that is used to assess vegetation moisture content and drought conditions.\nDOS: Dark Object Subtraction.\nDN: Digital Number.\nRatio:  the difference between two spectral bands that have a certain spectral response.\nGLCM: Gray Level Co-occurrence Matrix."
+  },
+  {
+    "objectID": "week10.html",
+    "href": "week10.html",
+    "title": "10  week10 - Presentation",
+    "section": "",
+    "text": "This week, we made the group work presentation. We invested a significant amount of effort in the preliminary stages, from identifying innovative topics addressing urban issues to collaborating on project proposals. Despite having only four members (Mengyu Ding, Zhaowei Cui, Sheng Hu), we efficiently completed the tasks. We are also very grateful to Professor Andy and PGTAs for their guidance and support throughout the semester on our pitch."
   }
 ]

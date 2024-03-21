@@ -161,8 +161,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+  <a href="./week10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">week10 - Presentation</span></span></a>
   </div>
 </li>
     </ul>
@@ -176,7 +176,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.1</span> Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">6.2</span> Applications</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">6.2</span> Applications</a>
+  <ul class="collapse">
+  <li><a href="#practical" id="toc-practical" class="nav-link" data-scroll-target="#practical"><span class="header-section-number">6.2.1</span> Practical</a></li>
+  <li><a href="#case-study-illegal-waste-disposal" id="toc-case-study-illegal-waste-disposal" class="nav-link" data-scroll-target="#case-study-illegal-waste-disposal"><span class="header-section-number">6.2.2</span> Case study: illegal waste disposal</a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6.4</span> References</a></li>
   </ul>
@@ -224,6 +228,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
+<section id="practical" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="practical"><span class="header-section-number">6.2.1</span> Practical</h3>
 <p>This week, I conducted some basic operations on Google Earth Engine (GEE), focusing on the Delhi region in India. My activities included adding points and polygons. I loaded Landsat satellite imagery and used vector administrative boundaries from GADM for cropping. Since I loaded multiple images, I synthesized them into a single image using the method of mean.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -256,12 +262,53 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="case-study-illegal-waste-disposal" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="case-study-illegal-waste-disposal"><span class="header-section-number">6.2.2</span> Case study: illegal waste disposal</h3>
+<p>Silvestri and Omri, emploied IKONOS satellite data to address the environmental challenges posed by uncontrolled landfills, particularly in areas experiencing rapid industrial growth. The method involves initial recognition using maximum likelihood classification, manual digitization of detected sites, and selection of the most likely lands using additional geographic and historical information.(Silvestri ,2008)</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk6/classification.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk6/landfill.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Global Plastic Watch (GPW)&nbsp;is a digital platform that maps the world's plastic pollution in near real-time using a unique combination of satellite imagery and artificial intelligence. The research employs a novel pipeline of neural networks(Pixel Spectrogram Classifier and Patch Classifier are used) that analyze spectral, spatial, and temporal data from Sentinel-2 satellites to detect plastic waste aggregations on land throughout Southeast Asia. This approach allows for the identification of plastic waste sites, monitoring waste site footprints over time, and generating metadata for each detected site.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk6/methods.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/wk6/training_process.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
 <section id="reflection" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
 <p>GEE is very interesting as it integrates data, code editing, and existing algorithms. It saves me a lot of time by eliminating the need to download data, while also not occupying my storage space and computing resources. As a result, I can quickly explore and manipulate data. I have explored the data that has already been processed and discovered that experts have conducted extensive research, including LCLU, drought, night light, crops, forest, fire information, etc. So I’m worried about what else I can do with it.</p>
 </section>
 <section id="references" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="references"><span class="header-section-number">6.4</span> References</h2>
+<p>Silvestri, S. &amp; Omri, M. (2008) A method for the remote sensing identification of uncontrolled landfills; formulation and validation. <em>International journal of remote sensing</em>. 29 (3–4), 975–989.</p>
 
 
 </section>
