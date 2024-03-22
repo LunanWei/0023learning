@@ -38,7 +38,7 @@ knitr::include_graphics('image/wk5/ee-chart2.png')
 
 ```
 
-### Casa study: 
+### Casa study:
 
 Saputra (2022) focused on the investigation of the urban heat island (UHI) effect in Jakarta, Indonesia, during the early stages of the COVID-19 pandemic. The study utilized remote sensing imagery from Landsat 8 to extract land surface temperatures and employed various methodologies for calculating UHI, including radiance conversion, brightness temperature, land surface emissivity, and correlation analysis with COVID-19 case distributions.
 

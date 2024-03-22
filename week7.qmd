@@ -43,4 +43,4 @@ knitr::include_graphics('image/WK7/RF.png')
 
 During the operation, if the labeled parcel pixels exceed the limit, GEE will display an error message. In this case, it is necessary to reduce the number of selected parcels or adjust larger parcels into smaller ones.
 
-## References
+## 

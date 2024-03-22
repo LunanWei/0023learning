@@ -59,6 +59,18 @@ knitr::include_graphics('image/wk8/reclassified.png')
 
 ## Application
 
+This week I read an article about using remote sensing and crop growth models for assessing crop yields, specifically focusing on spring wheat in North Dakota, USA. The research adapts the crop model EPIC (Erosion Productivity Impact Calculator) for regional simulations and investigates the use of satellite remotely sensed data to assess crop conditions.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/model.png')
+
+```
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('image/wk8/classification.png')
+
+```
+
 ## Reflection
 
 -   Imposing these constraints can make the results of non-mixture analysis more physically meaningful and geographically realistic. The non-negativity constraint ensures that scores will not take on unreasonable negative values, while the unity constraint ensures that the sum of all scores is 1, representing the percentage distribution of land cover types within pixels. These constraints help improve the accuracy and interpretability of non-mixture analysis, making the results more closely aligned with actual geographical scenarios.
@@ -66,6 +78,8 @@ knitr::include_graphics('image/wk8/reclassified.png')
 -   In spectral unmixing analysis, negative endmember fractions may occur due to several reasons: spectral similarity, spectral variability, noise effects, nonlinear mixing, and overfitting.
 
 ## Reference
+
+Bharadiya, Jasmin Praful and Tzenios, Nikolaos Tzenios and Reddy, Manjunath (2023) *Forecasting of Crop Yield using Remote Sensing Data, Agrarian Factors and Machine Learning Approaches.* Journal of Engineering Research and Reports, 24 (12). pp. 29-44. ISSN 2582-2926
 
 ## Dictionary
 

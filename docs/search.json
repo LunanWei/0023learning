@@ -186,7 +186,7 @@
     "href": "week8.html#application",
     "title": "8  week8 - Classification Ⅱ",
     "section": "8.2 Application",
-    "text": "8.2 Application"
+    "text": "8.2 Application\nThis week I read an article about using remote sensing and crop growth models for assessing crop yields, specifically focusing on spring wheat in North Dakota, USA. The research adapts the crop model EPIC (Erosion Productivity Impact Calculator) for regional simulations and investigates the use of satellite remotely sensed data to assess crop conditions."
   },
   {
     "objectID": "week8.html#reflection",
@@ -200,7 +200,7 @@
     "href": "week8.html#reference",
     "title": "8  week8 - Classification Ⅱ",
     "section": "8.4 Reference",
-    "text": "8.4 Reference"
+    "text": "8.4 Reference\nBharadiya, Jasmin Praful and Tzenios, Nikolaos Tzenios and Reddy, Manjunath (2023) Forecasting of Crop Yield using Remote Sensing Data, Agrarian Factors and Machine Learning Approaches. Journal of Engineering Research and Reports, 24 (12). pp. 29-44. ISSN 2582-2926"
   },
   {
     "objectID": "week8.html#dictionary",
@@ -284,7 +284,7 @@
     "href": "index.html#introduction",
     "title": "0023diary",
     "section": "Introduction",
-    "text": "Introduction\n\n\n\n\n\n\n\n\n\nHi, I am Lunan. After completing my undergraduate studies in architecture, I joined the planning department in Jinan city. Currently, I am pursuing an MSc in Urban Spatial Science at CASA. This document is intended to record my learning in remote sensing module. In my work, I have been involved in using remote sensing for monitoring illegal constructions and farmland protection. Additionally, I have learned that remote sensing can be utilized for guiding investments through land monitoring. I hope to explore the application of remote sensing technology in the field of smart cities through this module.\nAccording to the course requirements, the main parts of the diary include Summary, Application, and Reflection. However, to better help me understand and remember the concepts, I have added an additional section called Dictionary to explain some unfamiliar words and concepts encountered, this section is only for personal use.\ngit push https://github.com/LunanWei/0023learning.git"
+    "text": "Introduction\n\n\n\n\n\n\n\n\n\nHi, I am Lunan. After completing my undergraduate studies in architecture, I joined the planning department in Jinan city. Currently, I am pursuing an MSc in Urban Spatial Science at CASA. This document is intended to record my learning in remote sensing module. In my work, I have been involved in using remote sensing for monitoring illegal constructions and farmland protection. Additionally, I have learned that remote sensing can be utilized for guiding investments through land monitoring. I hope to explore the application of remote sensing technology in the field of smart cities through this module.\nAccording to the course requirements, the main parts of the diary include Summary, Application, and Reflection. However, to better help me understand and remember the concepts, I have added an additional section called Dictionary to explain some unfamiliar words and concepts encountered, this section is only for personal use."
   },
   {
     "objectID": "week3.html#application",
@@ -313,5 +313,12 @@
     "title": "10  week10 - Presentation",
     "section": "",
     "text": "This week, we made the group work presentation. We invested a significant amount of effort in the preliminary stages, from identifying innovative topics addressing urban issues to collaborating on project proposals. Despite having only four members (Mengyu Ding, Zhaowei Cui, Sheng Hu), we efficiently completed the tasks. We are also very grateful to Professor Andy and PGTAs for their guidance and support throughout the semester on our pitch."
+  },
+  {
+    "objectID": "week7.html#section",
+    "href": "week7.html#section",
+    "title": "7  week7 - Classification Ⅰ",
+    "section": "7.4 ",
+    "text": "7.4"
   }
 ]
