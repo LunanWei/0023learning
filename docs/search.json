@@ -214,35 +214,35 @@
     "href": "week9.html#summary",
     "title": "9  week9 - SAR",
     "section": "9.1 Summary",
-    "text": "9.1 Summary\n\n9.1.1 SAR\nLonger antenna = narrower beam and a higher resolution\n\n\n\n\n\n\n\n\n\nThe table below notes the band with associated frequency, wavelength, and the application typical for that band.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9.1.2 InSAR\nis mapping for ground movement detected through this phase shift. Movement is shown through an interferogram\n\n\n9.1.3 DInSAR\nDifferential Interferometric Synthetic Aperture Radar\nchanges between two images in time. Looking at movement of land (uplift or sinking) with topography removed"
+    "text": "9.1 Summary\n\n9.1.1 SAR\nA form of active data gathering, involves a sensor generating its own energy and subsequently measuring the energy reflected back following its interaction with the Earth’s surface. Longer antenna means narrower beam and a higher resolution. While too long antenna is not practical for a satellite sensor in space. Therefore, multiple acquisitions from a compact antenna are amalgamated to emulate a significantly larger antenna, thereby delivering data with enhanced resolution.\n\n\n\n\n\n\n\n\n\nThe table below notes the band with associated frequency, wavelength, and the application typical for that band.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9.1.2 InSAR\nIt is mapping for ground movement detected through this phase shift. Movement is shown through an interferogram.\n\n\n9.1.3 DInSAR\nDifferential Interferometric Synthetic Aperture Radar. It changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed.\n\n\n9.1.4 Polarization\nIn remote sensing, polarization refers to the orientation of the oscillation of electromagnetic waves during propagation. The direction of oscillation of electromagnetic waves can vary between the vertical and horizontal planes, a property known as polarization. Polarization states contains horizontal polarization (H), vertical polarization (V), or cross-polarization (HV or VH). (Jensen, 2007)"
   },
   {
     "objectID": "week9.html#application",
     "href": "week9.html#application",
     "title": "9  week9 - SAR",
     "section": "9.2 Application",
-    "text": "9.2 Application"
+    "text": "9.2 Application\nI learned about a method for mapping and monitoring forest biomass in NASA’s SAR Handbook. It discusses the use of remote sensing, particularly SAR sensors at long wavelengths, for their sensitivity to Above Ground Biomass (AGB) and their capability to quantify and monitor carbon stocks effectively at a scale relevant to human activities.\n\n\n\n\n\n\n\n\n\nInstances of allometric models for biomass derived from lidar data illustrate the process of translating airborne lidar observations into Above Ground Biomass (AGB). The diversity among these models indicates that focusing solely on a single parameter could lead to considerable variations in outcomes for different types of forests, akin to the variability observed in terrestrial allometric models.\n\n\n\n\n\n\n\n\n\nImages from UAVSAR L-band polarimetry and polarization metrics over the La Selva Biological Station in the tropical forests of Costa Rica depict: (a) a composite color image using three polarization channels, highlighting regions of largely undisturbed rainforest spanning a mountainous area, with zones of lower biomass detected in the northern and southern extents of the imagery. (b) An image of the Radar Vegetation Index (RVI), where regions with denser forest biomass are marked in red, whereas agricultural lands, agroforestry, and regenerating forests appear in shades of green and blue. (c) An image of the Radar Forest Degradation Index (RFDI), which distinguishes the more pristine forests in deep blue from areas experiencing degradation, secondary growth, and lower biomass, depicted in lighter shades of blue, green, and red."
   },
   {
     "objectID": "week9.html#reflection",
     "href": "week9.html#reflection",
     "title": "9  week9 - SAR",
     "section": "9.3 Reflection",
-    "text": "9.3 Reflection"
+    "text": "9.3 Reflection\n\nThe processing of SAR data at a lower level has historically presented a challenge due to the intricate and time-consuming preprocessing steps involved.\nSAR images inherently contain speckle noise, which requires improvement in image quality through multi-looking processing and other despeckling techniques. Radiometric and terrain corrections also need to be applied to SAR data to eliminate errors caused by terrain undulations and changes in the angle of radar signal propagation."
   },
   {
     "objectID": "week9.html#reference",
     "href": "week9.html#reference",
     "title": "9  week9 - SAR",
     "section": "9.4 Reference",
-    "text": "9.4 Reference"
+    "text": "9.4 Reference\nJensen, J. R. (2007) Remote sensing of the environment : an earth resource perspective / John R. Jensen. 2nd ed. Upper Saddle River, N.J: Pearson Prentice Hall.\nNASA (NA) What is Synthetic Aperture Radar? https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar\nNASA (NA) SAR HandbookComprehensive Methodologies for Forest Monitoring and Biomass Estimation https://gis1.servirglobal.net/TrainingMaterials/SAR/ch5.pdf"
   },
   {
     "objectID": "week9.html#dictionary",
     "href": "week9.html#dictionary",
     "title": "9  week9 - SAR",
     "section": "9.5 Dictionary",
-    "text": "9.5 Dictionary\nSAR 是 Synthetic Aperture Radar（合成孔径雷达）的缩写。SAR 是一种主动型雷达系统，通过发射微波信号，并接收目标反射回来的信号，来获取地表或其他目标物体的图像和信息。\n“Radar pulse”（雷达脉冲）是指雷达系统发射的短暂的电磁波脉冲。\nEMR wave, Electromagnetic Radiation Wave”，即电磁辐射波\n“Backscatter”（回波散射）是一种雷达术语，指的是雷达发射的信号遇到目标物体后，部分能量被目标物体散射并返回到雷达接收器的过程。\nDEM（Digital Elevation Model）数字高程模型： DEM 用于描述地表的地形高度信息，但不包括地表上的人工或自然物体（例如建筑物、树木等）。DEM 只考虑地表的形状和高度，通常用于地形分析、水文模拟、地貌研究等领域。\nDSM（Digital Surface Model）数字地表模型： DSM 描述了地表上的所有表面物体（例如建筑物、树木、山地等）以及地表本身的高度信息，包括地表上的所有物体的高程。在 DSM 中，地表的高程被测量到最高点，不考虑地表下的地形。\nDTM（Digital Terrain Model）数字地形模型： DTM 是一个更精确的地形模型，它描述了地表的形状、高程以及地表以下的地形。DTM 排除了地表上的人工和自然物体，只关注地形的实际形状。DTM 通常用于土地规划、工程设计、流域分析等需要准确地形信息的应用中。"
+    "text": "9.5 Dictionary\n\nSAR: Synthetic Aperture Radar. which is an active radar system that emits microwave signals and receives signals reflected back from targets to obtain images and information of the Earth’s surface or other target objects.\nRadar pulse: the brief electromagnetic wave pulse emitted by a radar system.\nEMR wave: Electromagnetic Radiation Wave.\nBackscatter: The process where some of the energy from the signal emitted by the radar is scattered by a target object and returns to the radar receiver.\nDEM: Digital Elevation Model. It is used to describe the elevation information of the Earth’s surface, excluding artificial or natural objects on the surface such as buildings, trees, etc.\nDSM: Digital Surface Model. It describes the elevation information of all surface objects (e.g., buildings, trees, mountains) as well as the surface itself, including the elevation of all objects on the surface.\nDTM: Digital Terrain Model. It is a more precise terrain model that describes the shape, elevation, and terrain below the surface."
   },
   {
     "objectID": "week5.html#summary",
